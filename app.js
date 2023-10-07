@@ -22,6 +22,7 @@ form.addEventListener("submit", (e) => {
   });
 
   //show result at the top of the page
+  //by using scrollTo(0, 0) the x and the y axis are 0 meaning the position is right at the top of the page
   scrollTo(0, 0); //represents the x and y axis of the page
   result.querySelector("span").textContent = `${score}%`;
   result.classList.remove("d-none");
